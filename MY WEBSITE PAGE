@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> MY CRICKET PAGE</title>
+ 
+ <style>
+   body{
+    background-color:lightblue;
+    text-align: center;
+    font-family: Arial;
+     }
+   h1{
+     color:darkblue;
+      }
+      
+ </style> 
+
+</head>  
+
+<body>
+  
+  <h1>My Favourite Crickter</h1>
+
+<img src="virat-kohli.png" width="200">
+
+<p> Virat Kohli is one of the best batsman in the world.</p>
+
+</body>
+
+</html>
+
+<img src="virat-kohli.png" 
+width="200">
+
+<img src="Shyan.png" width="200">
+
+<img src="guyi.png" width="200"
+
+
+<a href="https://www.google.com"> open
+google</a>
+
+<button
+style="background:green;color:white;paddish:10px"
+20px;border:none;border-radius:5px;">
+Learn Cricket
+</button>
+
+<div
+style="background:black;padding:10px;"
+>
+
+<a href="#"
+style="color:white;margin:10px;">HOME
+</a>
+<a href="#"
+style=" color:white;margin:10px">ABOUT
+</a>
+
+<a href="#"
+style="color:white;margin:10px">CONTACT</a>
+
+</div>
