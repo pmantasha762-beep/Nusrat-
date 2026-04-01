@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEM INDIA | Gift Shop Sangli</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1513883049090-d0b7439799bf');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SECTION */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact {
+    background: #222;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>HEM INDIA 🎁</h1>
+    <p>Premium Gift Shop in Sangli</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Make Every Occasion Special</h1>
+    <p>Gifts | Printing | Corporate Solutions</p>
+    <a href="#contact" class="btn">Contact Now</a>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        HEM INDIA is a trusted gift shop in Sangli providing premium gifts,
+        party solutions, and printing services for every occasion.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+
+    <div class="services">
+        <div class="card">🎁 Gift Shop</div>
+        <div class="card">🎉 Birthday Party</div>
+        <div class="card">💖 Anniversary</div>
+        <div class="card">🖊️ Laser Marking</div>
+        <div class="card">🏢 Corporate Gifts</div>
+        <div class="card">🖨️ Printing Services</div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>
+        S-01, Arihant Aset, near Pai Prakash Hotel,<br>
+        opposite Nitave Hospital, Gandhi Nagar,<br>
+        Vishrambag, Sangli, Maharashtra 416415
+    </p>
+
+    <p>📞 Phone: 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 HEM INDIA | Designed by You 🔥</p>
+</footer>
+
+<a href="https://wa.me/919876543210" target="_blank" 
+style="position:fixed;bottom:20px;right:20px;
+background:#25D366;color:white;padding:15px;
+border-radius:50%;text-decoration:none;font-size:20px;">
+💬
+</a>
+<iframe 
+src="https://maps.google.com/maps?q=Sangli&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%" height="300">
+</iframe>
+</body>
+</html>
